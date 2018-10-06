@@ -7,7 +7,7 @@ import Contact from "./Contact";
 import Welcome from "./Welcome";
 
 configureAnchors({
-  offset: -60,
+  offset: -70,
   scrollDuration: 400,
   keepLastAnchorHash: true
 });
@@ -16,12 +16,13 @@ const Navbar = styled.nav`
   position: fixed;
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid gray;
+
   width: 100%;
+  background-image: linear-gradient(lightblue, lightsteelblue);
+  opacity: 1;
   top: 0;
-  background-color: hsla(180, 100%, 25%, 0.9);
-  padding: 0.7rem 0 0.3rem 0;
-  font-size: 1.5rem;
+  padding: 1.7rem 0 1.1rem 0;
+  font-size: 1rem;
   z-index: 5;
 `;
 
@@ -33,12 +34,10 @@ export default class Navigation extends React.Component {
           <div />
           <div />
           <div />
+          <div />
           <a href="#welcome"> About </a>
           <a href="#work"> Work </a>
           <a href="#contact"> Contact </a>
-          <div />
-          <div />
-          <div />
         </Navbar>
         <ScrollableAnchor id={"welcome"}>
           <Welcome />

@@ -8,11 +8,14 @@ body {
 }
 
 a {
+  display: inline-block;
+  padding: 0 2rem;
+  margin: 0;
   text-decoration: none;
-  color: yellow;
+  color: hsla(0, 0%, 0%, 0.55);
 }
 a:hover {
-  color: coral;
+  color: yellow;
 }
 
 h2 {

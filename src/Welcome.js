@@ -7,10 +7,10 @@ const WelcomeS = styled.section`
   padding: 4rem 4rem 0 4rem;
   justify-content: center;
   height: 95vh;
-  background-color: lightblue;
+  background-color: lightsteelblue;
   h1 {
     font-size: 3rem;
-    color: beige;
+    color: hsla(2, 50%, 100%, 0.91);
   }
 `;
 
