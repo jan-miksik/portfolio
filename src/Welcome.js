@@ -6,7 +6,7 @@ const WelcomeS = styled.section`
   flex-direction: column;
   padding: 4rem 4rem 0 4rem;
   justify-content: center;
-  height: 95vh;
+  height: 100vh;
   background-color: lightsteelblue;
   h1 {
     font-size: 3rem;

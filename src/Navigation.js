@@ -23,7 +23,7 @@ const Navbar = styled.nav`
   top: 0;
   padding: 1.7rem 0 1.1rem 0;
   font-size: 1rem;
-  z-index: 5;
+  z-index: 55;
 `;
 
 export default class Navigation extends React.Component {

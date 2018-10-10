@@ -1,14 +1,28 @@
 import React from "react";
+import styled from "styled-components";
+
+import Carousel from "./componentsPage/Carousel";
+import Tooltip from "./componentsPage/Tooltip";
+
+const ComponentsPage = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+`;
 
 export default class Components extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Components</h1>
-        <h2>Another Component</h2>
-        <h2>Another Component</h2>
-        <h2>Another Component</h2>
-      </div>
+      <section>
+        <ComponentsPage>
+          <Carousel />
+          <br />
+          <Tooltip />
+        </ComponentsPage>
+      </section>
     );
   }
 }
