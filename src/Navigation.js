@@ -21,6 +21,7 @@ const Navbar = styled.nav`
   background-image: linear-gradient(lightblue, lightsteelblue);
   opacity: 1;
   top: 0;
+  margin:0;
   padding: 1.7rem 0 1.1rem 0;
   font-size: 1rem;
   z-index: 55;

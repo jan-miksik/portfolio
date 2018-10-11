@@ -5,7 +5,7 @@ import React, { Component } from "react";
 import styled, { keyframes } from "styled-components";
 import AOut from "../style/AOut";
 import { H3 } from "../style/H";
-import ArticleContainer from "../style/ArticleContainer";
+import { ArticleContainer } from "../style/WorkPage";
 
 const ContainerTraingleArrow = styled.div.attrs({
   onClick: props => props.onClick
@@ -133,7 +133,13 @@ export default class Carousel extends Component {
     return (
       <ArticleContainer>
         <H3>Carousel</H3>
-        <AOut href="https://codesandbox.io/s/oqrw3q3vm6">codesandbox</AOut>
+        <br />
+        <AOut
+          href="https://codesandbox.io/s/oqrw3q3vm6"
+          title="link to source code on CodeSnadbox"
+        >
+          codesandbox
+        </AOut>
         <br />
         <br />
         <Img background={this.state.images[index]}>

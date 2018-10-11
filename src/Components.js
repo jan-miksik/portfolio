@@ -1,27 +1,18 @@
 import React from "react";
-import styled from "styled-components";
 
 import Carousel from "./componentsPage/Carousel";
 import Tooltip from "./componentsPage/Tooltip";
-
-const ComponentsPage = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
-`;
+import { Equalizer, WorkContainer } from "./style/WorkPage";
 
 export default class Components extends React.Component {
   render() {
     return (
       <section>
-        <ComponentsPage>
+        <WorkContainer>
           <Carousel />
-          <br />
+          <Equalizer />
           <Tooltip />
-        </ComponentsPage>
+        </WorkContainer>
       </section>
     );
   }

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { H3 } from "../style/H";
 import AOut from "../style/AOut";
-import ArticleContainer from "../style/ArticleContainer";
+import { ArticleContainer } from "../style/WorkPage";
 
 const Tooltip = styled.span`
   color: red;
@@ -62,8 +62,7 @@ const TooltipArticle = () => (
     >
       codesandbox
     </AOut>{" "}
-    React
-    <br />
+    - React {" | "}
     <AOut
       href="https://codepen.io/jan-miksik/pen/JZzVww"
       target="_blank"

@@ -11,7 +11,7 @@ export default class Contact extends React.Component {
     return (
       <div>
         <H1>Contact</H1>
-        <H3>
+        <H3 contact>
           <AOut href="https://www.linkedin.com/in/jan-miksik/en">LinkedIn</AOut>
           {" | "}
           <AOut href="https://github.com/jan-miksik">Github</AOut>

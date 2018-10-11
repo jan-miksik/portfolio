@@ -7,10 +7,10 @@ export default class Work extends React.Component {
   render() {
     return (
       <div>
-        <H1>Work</H1>
-        <H2>projects</H2>
+        <H1 work>Work</H1>
+        <H2>Projects</H2>
         <Projects />
-        <H2>Components</H2>
+        <H2 component>Components</H2>
         <Components />
       </div>
     );
