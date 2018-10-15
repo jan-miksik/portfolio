@@ -8,6 +8,7 @@ export default class Work extends React.Component {
     return (
       <div>
         <H1 work>Work</H1>
+
         <H2>Projects</H2>
         <Projects />
         <H2 component>Components</H2>

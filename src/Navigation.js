@@ -1,16 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
-
+import Scrollchor from "react-scrollchor";
 import Work from "./Work";
 import Contact from "./Contact";
 import Welcome from "./Welcome";
-
-configureAnchors({
-  offset: -70,
-  scrollDuration: 400,
-  keepLastAnchorHash: true
-});
+const Scroll = styled(Scrollchor)`
+margin: 0;
+padding: 0;
+`;
 
 const Navbar = styled.nav`
   position: fixed;
@@ -22,7 +19,7 @@ const Navbar = styled.nav`
   opacity: 1;
   top: 0;
   margin:0;
-  padding: 1.7rem 0 1.1rem 0;
+  padding: 1.7rem 0 1.1rem  0;
   font-size: 1rem;
   z-index: 55;
 `;
@@ -36,19 +33,26 @@ export default class Navigation extends React.Component {
           <div />
           <div />
           <div />
-          <a href="#welcome"> About </a>
-          <a href="#work"> Work </a>
-          <a href="#contact"> Contact </a>
+          <Scroll to="#welcome">
+            <a> About </a>
+          </Scroll>
+          <Scroll animate={{ offset: -70 }} to="#work">
+            <a> Work </a>
+          </Scroll>
+          <Scroll to="#contact">
+            <a> Contact </a>
+          </Scroll>
         </Navbar>
-        <ScrollableAnchor id={"welcome"}>
+        <div id="welcome">
           <Welcome />
-        </ScrollableAnchor>
-        <ScrollableAnchor id={"work"}>
+        </div>
+        <div id="work">
           <Work />
-        </ScrollableAnchor>
-        <ScrollableAnchor id={"contact"}>
+        </div>
+
+        <div id="contact">
           <Contact />
-        </ScrollableAnchor>
+        </div>
       </div>
     );
   }
