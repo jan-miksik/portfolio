@@ -9,6 +9,7 @@ const AOut = styled.a.attrs({
   padding: 0;
   &:hover {
     color: orange !important;
+    opacity: 0.8;
   }
 `;
 
