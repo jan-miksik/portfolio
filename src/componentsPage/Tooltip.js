@@ -3,9 +3,10 @@ import styled from "styled-components";
 import { H3 } from "../style/H";
 import AOut from "../style/AOut";
 import { ArticleContainer } from "../style/WorkPage";
+import IconSvg from "../svg/LinksSVG";
 
 const Tooltip = styled.span`
-  color: red;
+  color: pink;
   margin: 0;
   padding: 0;
   color: $tooltip - activ;
@@ -57,23 +58,19 @@ const TooltipArticle = () => (
     <br />
     <AOut
       href="https://codesandbox.io/s/py8pj8j097"
-      target="_blank"
-      rel="noopener noreferrer"
+      title="React version, view on CodeSandbox"
     >
-      codesandbox
-    </AOut>{" "}
-    - React {" | "}
+      <IconSvg name="sandbox" width={50} />
+    </AOut>
     <AOut
       href="https://codepen.io/jan-miksik/pen/JZzVww"
-      target="_blank"
-      rel="noopener noreferrer"
+      title="pure css version, view on Codepen"
     >
-      codepen
-    </AOut>{" "}
-    pure css
+      <IconSvg name="codepen" width={50} viewBox="-10 0 35 26" />
+    </AOut>
     <br />
     <br />
-    Above in source code are links for tooltip version in React, which is used
+    Above are links to source code for tooltip version in React, which is used
     in this site and previous version in pure{" "}
     <Tooltip>
       <TooltipText>Cascading Style Sheets </TooltipText> css

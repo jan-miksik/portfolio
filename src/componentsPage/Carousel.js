@@ -6,6 +6,7 @@ import styled, { keyframes } from "styled-components";
 import AOut from "../style/AOut";
 import { H3 } from "../style/H";
 import { ArticleContainer } from "../style/WorkPage";
+import IconSvg from "../svg/LinksSVG";
 
 const ContainerTraingleArrow = styled.div.attrs({
   onClick: props => props.onClick
@@ -138,7 +139,7 @@ export default class Carousel extends Component {
           href="https://codesandbox.io/s/oqrw3q3vm6"
           title="link to source code on CodeSnadbox"
         >
-          codesandbox
+          <IconSvg name="sandbox" width={50} />
         </AOut>
         <br />
         <br />
