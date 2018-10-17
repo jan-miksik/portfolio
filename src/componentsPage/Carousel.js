@@ -133,7 +133,7 @@ export default class Carousel extends Component {
     let index = this.state.currentImg;
     return (
       <ArticleContainer>
-        <H3>Carousel</H3>
+        <H3 component>Carousel</H3>
         <br />
         <AOut
           href="https://codesandbox.io/s/oqrw3q3vm6"

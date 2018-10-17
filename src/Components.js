@@ -8,7 +8,7 @@ export default class Components extends React.Component {
   render() {
     return (
       <section>
-        <WorkContainer>
+        <WorkContainer component>
           <Carousel />
           <Equalizer />
           <Tooltip />

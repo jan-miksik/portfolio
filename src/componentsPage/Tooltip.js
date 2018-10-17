@@ -54,7 +54,7 @@ ${Tooltip}:hover & {
 
 const TooltipArticle = () => (
   <ArticleContainer>
-    <H3>Tooltip</H3>
+    <H3 component>Tooltip</H3>
     <br />
     <AOut
       href="https://codesandbox.io/s/py8pj8j097"
