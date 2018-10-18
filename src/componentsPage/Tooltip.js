@@ -66,7 +66,7 @@ const TooltipArticle = () => (
       href="https://codepen.io/jan-miksik/pen/JZzVww"
       title="pure css version, view on Codepen"
     >
-      <IconSvg name="codepen" width={50} viewBox="-10 0 35 26" />
+      <IconSvg name="codepen" width={50} viewBox="-5 -5 35 30" />
     </AOut>
     <br />
     <br />

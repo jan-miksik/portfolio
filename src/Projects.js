@@ -16,8 +16,8 @@ export default class Projects extends React.Component {
     return (
       <WorkContainer>
         <ArticleContainer>
-          <AOut href="https://codepen.io/jan-miksik/full/EpZpJO/">
-            <H3>Text-counter</H3>
+          <H3>Text-counter</H3>
+          <AOut project href="https://codepen.io/jan-miksik/full/EpZpJO/">
             <ImgW
               src="https://raw.githubusercontent.com/jan-miksik/images/master/re-text-counter.png"
               alt="text-counter"
@@ -26,8 +26,8 @@ export default class Projects extends React.Component {
         </ArticleContainer>
         <Equalizer />
         <ArticleContainer>
-          <AOut href="https://9o07lr0l0p.codesandbox.io/">
-            <H3>Notes</H3>
+          <H3>Notes</H3>
+          <AOut project href="https://9o07lr0l0p.codesandbox.io/">
             <ImgW src="https://raw.githubusercontent.com/jan-miksik/images/master/notes.png" />
           </AOut>
         </ArticleContainer>

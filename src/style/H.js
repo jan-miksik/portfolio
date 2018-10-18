@@ -20,8 +20,8 @@ export const H1 = styled.h1`
 export const H2 = styled.h2`
   background-image: ${props =>
     props.component
-      ? "linear-gradient(hsl(220, 50%, 30%), hsl(210, 50%, 25%))"
-      : "linear-gradient(hsla(120, 50%, 30%, 1), hsla(110, 50%, 26%, 1))"};
+      ? "linear-gradient(hsla(120, 50%, 30%, 1), hsla(110, 50%, 26%, 1))"
+      : "linear-gradient(hsl(220, 50%, 30%), hsl(210, 50%, 25%))"};
   color: hsla(0, 20%, 85%, 1);
   margin: 0;
   padding: 1rem;
@@ -29,8 +29,8 @@ export const H2 = styled.h2`
   font-size: 1.8rem;
   border-bottom: ${props =>
     props.component
-      ? "2px solid hsl(230, 50%, 30%)"
-      : "2px solid hsl(130, 50%, 30%)"}
+      ? "2px solid hsl(130, 50%, 30%)"
+      : "2px solid hsl(230, 50%, 30%)"}
 `;
 // hsla(49, 35 %, 72 %, 1);
 export const H3 = styled.h3`
@@ -38,8 +38,8 @@ export const H3 = styled.h3`
     props.contact
       ? "sienna"
       : props.component
-        ? "hsla(220, 40%, 30%, 1)"
-        : "hsla(130, 50%, 30%, 1)"};
+        ? "hsla(130, 50%, 30%, 1)"
+        : "hsla(220, 40%, 30%, 1)"};
   margin:  ${props => (props.contact ? "0" : "-1.5rem -1.15rem 1rem -1.15rem")}
   border-radius: ${props => (props.contact ? "0" : "7px 7px 0 0;")};
   color: hsla(0, 0%, 0%, 0.75);

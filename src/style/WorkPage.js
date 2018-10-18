@@ -7,8 +7,8 @@ export const WorkContainer = styled.div`
   width: 100%;
   background-image: ${props =>
     props.component
-      ? "linear-gradient(hsl(180,30%,30%), hsl(190,30%,30%))"
-      : "linear-gradient(hsl(90,60%,35%), hsl(100,57%,30%))"};
+      ? "linear-gradient(hsl(90,60%,35%), hsl(100,57%,30%))"
+      : "linear-gradient(hsl(180,30%,30%), hsl(190,30%,30%))"};
 `;
 
 export const Equalizer = styled.div`
