@@ -13,9 +13,7 @@ const Tooltip = styled.span`
   position: relative;
   display: inline-block;
   :hover {
-    color: black;
-    text-decoration: underline dashed red; /*$tooltip - activ;*/
-    text-underline-position: under;
+    color: lightgray;
   }
 `;
 

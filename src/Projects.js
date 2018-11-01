@@ -31,6 +31,12 @@ export default class Projects extends React.Component {
             <ImgW src="https://raw.githubusercontent.com/jan-miksik/images/master/notes.png" />
           </AOut>
         </ArticleContainer>
+        <ArticleContainer>
+          <H3>Random Quote Machine</H3>
+          <AOut project href="https://codepen.io/jan-miksik/full/EdqKxo/">
+            <ImgW src="https://raw.githubusercontent.com/jan-miksik/images/master/portfolio-projects/random-quote-machine.png" />
+          </AOut>
+        </ArticleContainer>
       </WorkContainer>
     );
   }
