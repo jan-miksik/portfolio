@@ -85,9 +85,9 @@ export default class Carousel extends Component {
     this.state = {
       currentImg: 0,
       images: [
-        "https://raw.githubusercontent.com/jan-miksik/colections-jm/master/public/images/car_2_676x450.jpg",
-        "https://raw.githubusercontent.com/jan-miksik/colections-jm/master/public/images/car_main_676x450.jpg",
-        "https://raw.githubusercontent.com/jan-miksik/colections-jm/master/public/images/car_3_674x450.jpg"
+        "https://raw.githubusercontent.com/jan-miksik/images/master/portfolio-carousel/carousel_2_676x450.jpg",
+        "https://raw.githubusercontent.com/jan-miksik/images/master/portfolio-carousel/carousel_main_676x450.jpg",
+        "https://raw.githubusercontent.com/jan-miksik/images/master/portfolio-carousel/carousel_3_674x450.jpg"
       ],
       content: [
         "Short text about picture.",
